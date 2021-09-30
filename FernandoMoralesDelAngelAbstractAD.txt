@@ -1,3 +1,10 @@
+Principios SOLID
+Un diseño orientado a objetos está pensado para un software al que se le pueda dar mantenimiento y en un futuro extender las funcionalidades que ofrece, para ello se emplean 5 principios de diseño que se resumen con el acrónimo en inglés SOLID.
+El principio de responsabilidad única establece que una clase solo debe de tener un trabajo, si una clase tienen múltiples funcionalidades y se requiere alguna modificación de una función se podría afectar a toda la clase.
+El principio abierto-cerrado establece que los objetos o entidades deben de estar abiertos para extensión pero cerrados para modificación, es decir, se debe de tener la facilidad de agregar nuevas funcionalidades o características del programa sin modificar las clases ya existentes.
+El principio de sustitución de Liskov dice que cada subclase o clase derivada debe ser sustituible por su clase base o padre, para que esto sea posible no deben de haber restricciones adicionales en las subclases.
+El principio de segregación de interfaz dice que nunca se debe obligar a un cliente a implementar una interfaz que no usa, o no se debe obligar a los clientes a depender de métodos que no usan.
+El principio de inversión de dependencia establece que las entidades deben depender de abstracciones, no de concreciones, el módulo de alto nivel no debe depender del módulo de bajo nivel, sino que debe depender de abstracciones.
 
 
 Otros principios en programación orientada a objetos.
@@ -26,5 +33,3 @@ El patrón de arquitectura en capas tiene una agilidad general baja, es decir, n
 Principios KISS YAGNI y DRY
 Suele ocurrir que caemos que caemos en la trampa de diseñar un proyecto de una forma más compleja de lo necesario, que incluso es difícil de comprender por el propio programador, por ello es necesario tener en cuenta unos principios básicos muy poderosos que harán las cosas más fáciles.
 La programación de KISS, en particular, es muy importante. Trate de tener esto en mente en sus esfuerzos. Cuanto más simple sea su código, más sencillo será mantenerlo en el futuro. Esto será muy apreciado por cualquier otra persona que necesite examinar su código en el futuro.
-YAGNI es un principio detrás de la práctica de programación extrema (XP) de " Hacer lo más simple que pueda funcionar”. Incluso cuando este principio forma parte de XP, es aplicable en todo tipo de metodologías y procesos de desarrollo. Al implementar los ideales de la programación "No lo vas a necesitar", te ahorrarás tiempo y podrás avanzar con los proyectos de manera eficiente.
-Cuando sientas una ansiedad inexplicable por codificar algunas funcionalidades extra que de momento no son necesarias, pero crees que te serán útiles en el futuro, simplemente cálmate y mira todo el trabajo pendiente que tienes en este momento. No puede perder el tiempo codificando aquellas características que puede terminar necesitando corregir, cambiar o eliminar porque no se ajustan a las necesidades del producto
