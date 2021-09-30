@@ -1,11 +1,4 @@
 
-Un diseño orientado a objetos está pensado para un software al que se le pueda dar mantenimiento y en un futuro extender las funcionalidades que ofrece, para ello se emplean 5 principios de diseño que se resumen con el acrónimo en inglés SOLID.
-El principio de responsabilidad única establece que una clase solo debe de tener un trabajo, si una clase tienen múltiples funcionalidades y se requiere alguna modificación de una función se podría afectar a toda la clase.
-El principio abierto-cerrado establece que los objetos o entidades deben de estar abiertos para extensión pero cerrados para modificación, es decir, se debe de tener la facilidad de agregar nuevas funcionalidades o características del programa sin modificar las clases ya existentes.
-El principio de sustitución de Liskov dice que cada subclase o clase derivada debe ser sustituible por su clase base o padre, para que esto sea posible no deben de haber restricciones adicionales en las subclases.
-El principio de segregación de interfaz dice que nunca se debe obligar a un cliente a implementar una interfaz que no usa, o no se debe obligar a los clientes a depender de métodos que no usan.
-El principio de inversión de dependencia establece que las entidades deben depender de abstracciones, no de concreciones, el módulo de alto nivel no debe depender del módulo de bajo nivel, sino que debe depender de abstracciones.
-
 Otros principios en programación orientada a objetos.
 El principio DRY nos dice que no debemos de repetir código, en lugar de eso podemos usar abstracciones, no debemos de abusar de este principio, por eso es importante recordar que la duplicación no es por código sino por funcionalidad.
 Encapsular el código que se espera o sospecha que tendrá cambios en un futuro para que de esta manera sea más fácil probarlo y darle mantenimiento.
