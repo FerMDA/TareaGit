@@ -1,4 +1,4 @@
-Principios SOLID
+
 Un diseño orientado a objetos está pensado para un software al que se le pueda dar mantenimiento y en un futuro extender las funcionalidades que ofrece, para ello se emplean 5 principios de diseño que se resumen con el acrónimo en inglés SOLID.
 El principio de responsabilidad única establece que una clase solo debe de tener un trabajo, si una clase tienen múltiples funcionalidades y se requiere alguna modificación de una función se podría afectar a toda la clase.
 El principio abierto-cerrado establece que los objetos o entidades deben de estar abiertos para extensión pero cerrados para modificación, es decir, se debe de tener la facilidad de agregar nuevas funcionalidades o características del programa sin modificar las clases ya existentes.
